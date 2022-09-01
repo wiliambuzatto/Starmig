@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Migrations\000001-Initial_Migration.sql" />
+    <None Remove="Migrations\000002-AddNewColumnToStudent.sql" />
+    <None Remove="Migrations\000003-AddDefaultValueToMiddleName.sql" />
+    <None Remove="PostDeployment\000001-dbo.SP_course.StoredProcedure.sql" />
+    <None Remove="PostDeployment\000002-dbo.SP_removeStudent.StoredProcedure.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\000003-AddDefaultValueToMiddleName.sql" />
+    <EmbeddedResource Include="Migrations\000002-AddNewColumnToStudent.sql" />
+    <EmbeddedResource Include="Migrations\000001-Initial_Migration.sql" />
+    <EmbeddedResource Include="PostDeployment\000001-dbo.SP_course.StoredProcedure.sql" />
+    <EmbeddedResource Include="PostDeployment\000002-dbo.SP_removeStudent.StoredProcedure.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup-sqlserver" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PreDeployment\" />
+  </ItemGroup>
+
+</Project>

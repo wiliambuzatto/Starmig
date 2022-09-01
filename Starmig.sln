@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starmig.Api", "src\Starmig.Api\Starmig.Api.csproj", "{536AC66A-F945-4B24-A681-2891218DDE35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starmig.MigrationRunner", "src\Starmig.MigrationRunner\Starmig.MigrationRunner.csproj", "{CC5D4B21-5DB0-4D50-A6D6-9495C8EE0138}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{536AC66A-F945-4B24-A681-2891218DDE35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536AC66A-F945-4B24-A681-2891218DDE35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536AC66A-F945-4B24-A681-2891218DDE35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536AC66A-F945-4B24-A681-2891218DDE35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5D4B21-5DB0-4D50-A6D6-9495C8EE0138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5D4B21-5DB0-4D50-A6D6-9495C8EE0138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5D4B21-5DB0-4D50-A6D6-9495C8EE0138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5D4B21-5DB0-4D50-A6D6-9495C8EE0138}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02EDB24C-D815-4F12-86C9-323F62DD9D2F}
+	EndGlobalSection
+EndGlobal
